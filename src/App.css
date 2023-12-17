@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+.App{
+  background-image: url(./Images/violet1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-top: 50px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  background-image: url(./Images/violet2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 1000px;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 2px rgb(237, 237, 237);
+  margin-top: 0px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.quote{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(243, 243, 243);
+  height: auto;
+  width: 550px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 1px 1px rgb(149, 147, 147);
+  margin-left: 26px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: 25px;
+  width: 550px;
+}
+.button{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 30px;
+}
+.form{
+  display: flex;
+  flex-direction: row;
+}
+.result{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 30px;
+}
+.text{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
   color: white;
+  text-align: justify;
+  margin-left: 50px;
+  font-size: 20px;
+  /* color: #38222f; */
 }
-
-.App-link {
-  color: #61dafb;
+.quote2{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+span{
+  font-size: 35px;
+  margin-left: 9px;
 }
